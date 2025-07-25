@@ -19,7 +19,7 @@ const ongoingTasks = todos.filter(todo => todo.done === false);
 
 // Step 3: Create a function to display tasks
 
-console.table("Done:");
+console.log("Done:");
 completedTasks.forEach((task, index) => {console.log(`${index + 1}. ${task.title}`)});
-console.table("\n Ongoing:");
+console.log("\n Ongoing:");
 ongoingTasks.forEach((task, index) => {console.log(`${index + 1}. ${task.title}`)});
